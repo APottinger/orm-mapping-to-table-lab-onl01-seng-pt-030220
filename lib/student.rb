@@ -23,7 +23,7 @@ class Student
       DB[:conn].execute(sql, self.name, self.album)
   end 
   
-  def 
+  def self.create()
   
   attr_accessor :name, :grade
   attr_reader :id
