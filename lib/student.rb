@@ -7,6 +7,8 @@ class Student
       name TEXT,
       grade TEXT
       )
+      SQL
+      DB[:conn]
   end 
   
   attr_accessor :name, :grade
