@@ -25,7 +25,7 @@ class Student
   
   def self.create(name, album)
     s = Song.new 
-    song.save
+    s.save
     song 
   end 
   
