@@ -25,7 +25,8 @@ class Student
   
   def self.create(name, album)
     song = Song.new 
-    song = 
+    song.save
+    song 
   end 
   
   attr_accessor :name, :grade
