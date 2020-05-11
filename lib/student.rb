@@ -1,7 +1,7 @@
 class Student
   
   def self.create_table
-    sql = <<- SQL
+    sql = <<-SQL
     CREATE TABLE IF NOT EXIST songs (
       id INTEGER PRIMARY KEY,
       name TEXT,
@@ -16,7 +16,7 @@ class Student
   end
   
   def save
-    sql <<- SQL
+    sql <<-SQL
       INSERT INTO songs (name, album)
       VALUES (?, ?)
       SQL
