@@ -17,7 +17,7 @@ class Student
   
   def save
     sql <<- SQL
-    
+    INSERT INTO songs 
   end 
   
   attr_accessor :name, :grade
