@@ -12,7 +12,7 @@ class Student
   end 
   
   def self.drop_table
-    DB[:conn].songs.clear
+    DB[:conn].students.clear
   end
   
   def save
@@ -24,9 +24,9 @@ class Student
   end 
   
   def self.create(name, album)
-    s = Song.new 
+    s = Student.new 
     s.save
-    song 
+    s 
   end 
   
   attr_accessor :name, :grade
