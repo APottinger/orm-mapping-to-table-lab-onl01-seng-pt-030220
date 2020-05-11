@@ -1,6 +1,8 @@
 class Student
   
-  self.create_table
+  def self.create_table
+    
+  
     CREATE TABLE (
       )
   end 
