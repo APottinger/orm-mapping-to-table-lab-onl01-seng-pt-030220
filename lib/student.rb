@@ -12,7 +12,7 @@ class Student
   end 
   
   def self.drop_table
-    DB[:conn].students.clear
+    DB[:conn].clear
   end
   
   def save
