@@ -12,8 +12,12 @@ class Student
   end 
   
   def self.drop_table
-    
+    DB[:conn].songs.clear
   end
+  
+  def save
+    
+  end 
   
   attr_accessor :name, :grade
   attr_reader :id
