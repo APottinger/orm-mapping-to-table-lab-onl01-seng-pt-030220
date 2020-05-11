@@ -20,8 +20,10 @@ class Student
       INSERT INTO songs (name, album)
       VALUES (?, ?)
       SQL
-      DB[:conn].execute(sql, al)
+      DB[:conn].execute(sql, self.name, self.album)
   end 
+  
+  def 
   
   attr_accessor :name, :grade
   attr_reader :id
