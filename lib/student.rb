@@ -8,7 +8,7 @@ class Student
       grade TEXT
       )
       SQL
-      DB[:conn]
+      DB[:conn].execute(sql)
   end 
   
   attr_accessor :name, :grade
