@@ -11,6 +11,10 @@ class Student
       DB[:conn].execute(sql)
   end 
   
+  def self.drop_table
+    
+  end
+  
   attr_accessor :name, :grade
   attr_reader :id
   
