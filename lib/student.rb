@@ -17,6 +17,7 @@ class Student
   
   def save
     sql <<- SQL
+    
   end 
   
   attr_accessor :name, :grade
