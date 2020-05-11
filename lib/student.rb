@@ -23,7 +23,10 @@ class Student
       DB[:conn].execute(sql, self.name, self.album)
   end 
   
-  def self.create()
+  def self.create(name, album)
+    song = Song.new 
+    song = 
+  end 
   
   attr_accessor :name, :grade
   attr_reader :id
