@@ -19,7 +19,8 @@ class Student
     sql <<- SQL
       INSERT INTO songs (name, album)
       VALUES (?, ?)
-      
+      SQL
+      DB[:conn]
   end 
   
   attr_accessor :name, :grade
